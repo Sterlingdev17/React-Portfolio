@@ -1,0 +1,53 @@
+
+.land-grid{
+background-color: aqua;
+position: fixed;
+height: 100%;
+top: 0;
+width: 100%;
+right: 0;
+left: 0;
+text-align: center;
+
+
+}
+
+.sterling-pic{
+    height: 250px; 
+    padding-top: 5em;
+    left: 45px;
+    
+}
+
+.pic-text{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.pic-text h1 {
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+}
+
+.pic-text hr {
+    border-top: 4px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.pic-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    font-size: 5em;
+}
