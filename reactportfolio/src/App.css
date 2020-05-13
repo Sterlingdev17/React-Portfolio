@@ -58,7 +58,6 @@ text-align: center;
 }
 .contact-body{
     margin: auto;
-    background: grey;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -74,7 +73,6 @@ text-align: center;
     height: 580px;
     background: white;
     color: black;
-    border: 2px solid solid red;
     margin-bottom: 20px;
 
 }
@@ -91,4 +89,9 @@ text-align: center;
     border-top: 5px dotted black;
     width: 50%;
     margin: auto;
+}
+
+.contact-list i {
+    font-size: 60px;
+    padding-right: 5rem;
 }
