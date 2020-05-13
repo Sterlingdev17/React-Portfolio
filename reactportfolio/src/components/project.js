@@ -11,8 +11,9 @@ class Projects extends Component {
     projectOptions() {
         if (this.state.activeTab === 0) {
             return (
+                <div className="project-div">
                 <Card shadow={5} style={{minWidth: "450", margin: "auto"}}>
-                    <CardTitle style={{color: "#fff", height: "176px", background: "url() center/ cover"}}> React Project </CardTitle>
+                    <CardTitle style={{color: "#fff", height: "176px", background: "url(https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/fGWjtyQtG4JE7UXgaPAN) center/ cover"}}> React Project </CardTitle>
 
                     <CardText>
                     Just use top:0; and left: 0; and you can also eliminate padding: 0. Don't use top: 0; for other div except top, use left: 0; for other div for eliminate the left space.
@@ -28,12 +29,53 @@ class Projects extends Component {
 
 
                 </Card>
+
+                <Card shadow={5} style={{minWidth: "450", margin: "auto"}}>
+                    <CardTitle style={{color: "#fff", height: "176px", background: "url(https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/fGWjtyQtG4JE7UXgaPAN) center/ cover"}}> React Project </CardTitle>
+
+                    <CardText>
+                    Just use top:0; and left: 0; and you can also eliminate padding: 0. Don't use top: 0; for other div except top, use left: 0; for other div for eliminate the left space.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored> Github </Button>
+                        <Button colored> LiveDemo </Button>
+                    </CardActions>
+                    <CardMenu style={{color: "#fff"}}>
+                        <IconButton name="share" />
+                        
+                    </CardMenu>
+
+
+                </Card>
+
+                <Card shadow={5} style={{minWidth: "450", margin: "auto"}}>
+                    <CardTitle style={{color: "#fff", height: "176px", background: "url(https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/fGWjtyQtG4JE7UXgaPAN) center/ cover"}}> React Project </CardTitle>
+
+                    <CardText>
+                    Just use top:0; and left: 0; and you can also eliminate padding: 0. Don't use top: 0; for other div except top, use left: 0; for other div for eliminate the left space.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored> Github </Button>
+                        <Button colored> LiveDemo </Button>
+                    </CardActions>
+                    <CardMenu style={{color: "#fff"}}>
+                        <IconButton name="share" />
+                        
+                    </CardMenu>
+
+
+                </Card>
+
+                
+                </div>
+                
             )
 
         } else if (this.state.activeTab === 1) {
             return (
+               <div className="project-div"> 
                 <Card shadow={5} style={{minWidth: "450", margin: "auto"}}>
-                    <CardTitle style={{color: "#fff", height: "176px", background: "url() center/ cover"}}> MongoDB Project </CardTitle>
+                    <CardTitle style={{color: "#fff", height: "176px", background: "url(https://adnasdebel.tk/sites/default/files/styles/entry_medium_mobile/public/images/2015-11/mongo-db.png?itok=vRQvGcZG) center/ cover"}}> MongoDB Project </CardTitle>
 
                     <CardText>
                     Just use top:0; and left: 0; and you can also eliminate padding: 0. Don't use top: 0; for other div except top, use left: 0; for other div for eliminate the left space.
@@ -49,6 +91,25 @@ class Projects extends Component {
 
 
                 </Card>
+                <Card shadow={5} style={{minWidth: "450", margin: "auto"}}>
+                    <CardTitle style={{color: "#fff", height: "176px", background: "url(https://adnasdebel.tk/sites/default/files/styles/entry_medium_mobile/public/images/2015-11/mongo-db.png?itok=vRQvGcZG) center/ cover"}}> MongoDB Project </CardTitle>
+
+                    <CardText>
+                    Just use top:0; and left: 0; and you can also eliminate padding: 0. Don't use top: 0; for other div except top, use left: 0; for other div for eliminate the left space.
+                    </CardText>
+                    <CardActions border>
+                        <Button colored> Github </Button>
+                        <Button colored> LiveDemo </Button>
+                    </CardActions>
+                    <CardMenu style={{color: "#fff"}}>
+                        <IconButton name="share" />
+                        
+                    </CardMenu>
+
+
+                </Card>
+
+                </div>
             )
 
         } else if (this.state.activeTab === 2) {

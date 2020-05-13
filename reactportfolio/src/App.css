@@ -1,6 +1,7 @@
 
 .land-grid{
-background-color: aqua;
+background-image: url(../src/images/jordan-whitfield-sm3Ub_IJKQg-unsplash.jpg);
+background-size: cover;
 position: fixed;
 height: 100%;
 top: 0;
@@ -50,4 +51,44 @@ text-align: center;
     width: 50%;
     margin: auto;
     font-size: 5em;
+}
+
+.project-div{
+    display: flex;
+}
+.contact-body{
+    margin: auto;
+    background: grey;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+
+} 
+
+.contact-div{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 580px;
+    background: white;
+    color: black;
+    border: 2px solid solid red;
+    margin-bottom: 20px;
+
+}
+.contact-div h2 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contact-div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.contact-div hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
 }
